@@ -1,0 +1,30 @@
+footer{
+  padding: 45px 0;
+  .container:first-of-type{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fabe7b;
+    margin-bottom: 25px;
+  }
+  h2{
+    margin-bottom: 12px;
+  }
+  a{
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+  p{
+    margin-bottom: 8px;
+  }
+  .logo_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img{
+      width: 125px;
+      height: 125px;
+      object-fit: contain;
+      margin-right: 20px;
+    }
+  }
+}

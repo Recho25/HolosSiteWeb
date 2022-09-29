@@ -1,0 +1,200 @@
+$small-desktop-width: 1200px;
+$phone-width: 550px;
+$tablet-width: 1100px;
+
+
+
+@mixin desktopOnly {
+  @media (min-width: #{$small-desktop-width}) {
+    @content;
+  }
+}
+@mixin smallDesktop {
+  @media (max-width: #{$small-desktop-width}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin phone {
+  @media (max-width: #{$phone-width}) {
+    @content;
+  }
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1{
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+main{
+  min-height: 200vh;
+}
+
+.container{
+  max-width: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+  @include tablet{
+    max-width: 90%;
+    width: 90%;
+  }
+}
+section{
+  min-height: 100vh;
+  overflow: hidden;
+  h2{
+    margin-bottom: 35px;
+  }
+}
+
+
+section:not(.hero_section){
+  padding-block: 45px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  &:nth-child(odd){
+    background-color: #474347;
+    color: white;
+  }
+}
+
+#services{
+  .container{
+    .services_container{
+      display:flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      .service_card{
+        width: 33%;
+        padding-right: 15px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        @include tablet(){
+          width: 50%;
+        }
+        @include phone(){
+          width: 100%;
+        }
+        h3{
+          margin-bottom: 10px;
+        }
+        li{
+          margin-bottom: 5px;
+        }
+        ul{
+          list-style: inside;
+        }
+      }
+    }
+  }
+}
+
+#valeurs{
+  .container{
+    .valeurs_container{
+      .valeur_card{
+
+        h3{
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+.hero_section{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container{
+    position: relative;
+    z-index: 2;
+    h1{
+      color: #fabe7b;
+      width: 60%;
+      @include tablet(){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.filter_black{
+  position: relative;
+  &:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    opacity: .5;
+    z-index: 1;
+  }
+}
+#mission{
+  p{
+    font-size: 1.3em;
+
+  }
+}
+#equipe{
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h2{ width: 100%; }
+    .equipe_card{
+      width: 40%;
+      box-sizing: border-box;
+      border: 1px solid #fabe7b;
+      margin-bottom: 45px;
+      @include phone(){
+        width: 100%;
+      }
+      .img_container{
+        width: 100%;
+        border-bottom: 1px solid #fabe7b;
+        img{
+          width: 100%;
+          height: 350px;
+          object-fit: cover;
+        }
+      }
+      .equipe_card_content{
+        padding: 30px;
+        h3{
+          margin-bottom: 10px;
+          font-size: 1.15em;
+        }
+        h4{
+          margin-bottom: 10px;
+        }
+        ul{list-style: none}
+        ul li{margin-bottom: 5px;}
+      }
+    }
+  }
+}
