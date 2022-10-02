@@ -18,7 +18,8 @@ let equipe =  [
         "name" : "Olivier Lamarche",
         "img" : "/img/photoOlivier.jpg",
         "titre" : "B.A.A, Associé",
-        "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "linkedIn": "https://www.google.ca",
+        "booking": "https://google.ca",
         "roles"  : [
             "Conseiller en sécurité financière",
             "Représentant en épargne collective"
@@ -28,7 +29,8 @@ let equipe =  [
         "name" : "Julien Gagnon-Paré",
         "img" : "/img/photoJulien.jpg",
         "titre" : "M.B.A Finance, Associé",
-        "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "linkedIn": "https://www.google.ca",
+        "booking": "https://google.ca",
         "roles"  : [
             "Conseiller en sécurité financière",
             "Représentant en épargne collective"
@@ -38,7 +40,8 @@ let equipe =  [
         "name" : "Jean-François Lachance",
         "img" : "/img/photoJeff.jpg",
         "titre" : "B.A.A, Pl.Fin",
-        "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "linkedIn": "https://www.google.ca",
+        "booking": "https://google.ca",
         "roles"  : [
             "Partenaire associé",
             "Représentant en épargne collective",
@@ -49,7 +52,8 @@ let equipe =  [
         "name" : "Stéfanie Hains",
         "img" : "/img/photoStefanie.jpg",
         "titre" : "Coordinatrice",
-        "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "linkedIn": "https://www.google.ca",
+        "booking": "https://google.ca",
         "roles"  : [
             "Plani-Concept.inc & Holos Services Financiers",
             "SFL Gestion de patrimoine"
@@ -59,7 +63,8 @@ let equipe =  [
         "name" : "Stéphanie Fortin-Nadeau",
         "img" : "/img/photoStephanie3.jpg",
         "titre" : "Coordinatrice",
-        "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "linkedIn": "https://www.google.ca",
+        "booking": "https://google.ca",
         "roles"  : [
             "Plani-Concept.inc & Holos Services Financiers",
             "SFL Gestion de patrimoine"
@@ -88,8 +93,8 @@ function Equipe(){
                         { getData(membre["roles"]) }
                     </div>
                     <div className="mt-5 col-md-12 text-center">
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                            <Button variant="primary" size="lg">Rendez-vous</Button>
+                        <a href={membre["booking"]}>
+                            <Button variant="btn btn-outline-light" size="lg">Rendez-vous</Button>
                         </a>
                     </div>
                 </div>

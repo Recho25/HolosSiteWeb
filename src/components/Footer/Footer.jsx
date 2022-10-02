@@ -19,16 +19,14 @@ class Footer extends Component {
                 <footer id={"footer"}>
                     <div className="container">
                         <div className="row justify-content-center">
-                            {/*<col>*/}
                             <div className="col">
-
-                            <h2>Nous joindre</h2>
-                            <a href="https://www.sfl.ca/quebec-mauricie-appalaches/#main-content">Centre financier Lebourgneuf</a>
-                            <p>825 Boulevard Lebourgneuf, bureau 500, Québec, QC G2J 0B9</p>
-                            <p><b>Téléphone: </b>(418)-627-4447 poste: 274</p>
-                            <p><b>Fax: </b> (418) 627-3327</p>
-                            <p><b>Adresse courriel: </b>plani-holos@sfl.ca</p>
-                            </div>
+                                <h2>Nous joindre</h2>
+                                <a href="https://www.sfl.ca/quebec-mauricie-appalaches/#main-content">Centre financier Lebourgneuf</a>
+                                <p>825 Boulevard Lebourgneuf, bureau 500, Québec, QC G2J 0B9</p>
+                                <p><b>Téléphone: </b>(418)-627-4447 poste: 274</p>
+                                <p><b>Fax: </b> (418) 627-3327</p>
+                                <p><b>Adresse courriel: </b>plani-holos@sfl.ca</p>
+                                </div>
                             <div className="col">
 
                                 <div className="iframe-map">
@@ -39,10 +37,6 @@ class Footer extends Component {
                                 </div>
 
                             </div>
-                            {/*</col>*/}
-                            {/*<col>*/}
-
-                            {/*</col>*/}
                         </div>
 
                     </div>
