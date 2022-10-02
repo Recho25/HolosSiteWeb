@@ -1,0 +1,162 @@
+Index: src/components/Footer/Footer.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Footer/Footer.jsx b/src/components/Footer/Footer.jsx
+--- a/src/components/Footer/Footer.jsx	
++++ b/src/components/Footer/Footer.jsx	
+@@ -12,11 +12,11 @@
+                 <footer id={"footer"}>
+                     <div className="container">
+                         <h2>Nous joindre</h2>
+-                        <a href="">Centre financier Lebourgneuf</a>
+-                        <p>825 Bd Lebourgneuf #500, Quebec City, Quebec G2J 0B9</p>
+-                        <p><b>Téléphone: </b>(418)-627-4447<br/>(poste julien: 213, Olivier 212, Stéfanie: 274, Stéphanie Nadeau: 470, Jean-F: 296)</p>
++                        <a href="https://www.sfl.ca/quebec-mauricie-appalaches/#main-content">Centre financier Lebourgneuf</a>
++                        <p>825 Boulevard Lebourgneuf, bureau 500, Québec, QC, G2J 0B9</p>
++                        <p><b>Téléphone: </b>(418)-627-4447 poste: 274</p>
+                         <p><b>Fax: </b> (418) 627-3327</p>
+-                        <p><b>Adresse courriel: </b>test@hotmail.com</p>
++                        <p><b>Adresse courriel: </b>plani-holos@sfl.ca</p>
+                         <div className="logo_wrapper">
+                             <img src="/img/sfl_expertise.png" alt=""/>
+                             <img src="/img/sfl_patrimoine.jpg" alt=""/>
+Index: src/components/Equipe.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Equipe.jsx b/src/components/Equipe.jsx
+--- a/src/components/Equipe.jsx	
++++ b/src/components/Equipe.jsx	
+@@ -11,11 +11,22 @@
+         <li>{desc}</li>
+     ))
+ 
++}
++
++const changeStyle = () => {
++    return {
++        height: "40px",
++        width: "100px",
++        background: "white",
++        color: "black",
++        position: "center",
++        borderRadius: "3em",
++    }
+ }
+ let equipe =  [
+     {
+         "name" : "Olivier Lamarche",
+-        "img" : "/img/holos_black.png",
++        "img" : "/img/photoOlivier.jpg",
+         "titre" : "B.A.A, Associé",
+         "roles"  : [
+             "Conseiller en sécurité financière",
+@@ -24,7 +35,7 @@
+     },
+     {
+         "name" : "Julien Gagnon-Paré",
+-        "img" : "/img/holos_black.png",
++        "img" : "/img/photoJulien.jpg",
+         "titre" : "M.B.A Finance, Associé",
+         "roles"  : [
+             "Conseiller en sécurité financière",
+@@ -33,7 +44,7 @@
+     },
+     {
+         "name" : "Jean-François Lachance",
+-        "img" : "/img/holos_black.png",
++        "img" : "/img/photoJeff.jpg",
+         "titre" : "B.A.A, Pl.Fin",
+         "roles"  : [
+             "Partenaire associé",
+@@ -43,8 +54,8 @@
+     },
+     {
+         "name" : "Stéfanie Hains",
+-        "img" : "/img/holos_black.png",
+-        "titre" : "Coordinatrice",
++        "img" : "/img/photoStefanie.jpg",
++        "titre" : "Coordonnatrice",
+         "roles"  : [
+             "Plani-Concept.inc & Holos Services Financiers",
+             "SFL Gestion de patrimoine"
+@@ -52,8 +63,8 @@
+     },
+     {
+         "name" : "Stéphanie Fortin-Nadeau",
+-        "img" : "/img/holos_black.png",
+-        "titre" : "Coordinatrice",
++        "img" : "/img/photoSteph.jpg",
++        "titre" : "Coordonnatrice",
+         "roles"  : [
+             "Plani-Concept.inc & Holos Services Financiers",
+             "SFL Gestion de patrimoine"
+@@ -76,9 +87,12 @@
+                     <h3>{membre["name"]}</h3>
+                     <h4>{membre["titre"]}</h4>
+                     <ul>
+-                        { getData(membre["roles"])}
++                        <li>
++                            { getData(membre["roles"])}
++                        </li>
+                     </ul>
+                 </div>
++                <button style={changeStyle()}>Rendez-vous </button>
+             </div>
+         )
+     );
+Index: src/components/Header/Header.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Header/Header.jsx b/src/components/Header/Header.jsx
+--- a/src/components/Header/Header.jsx	
++++ b/src/components/Header/Header.jsx	
+@@ -90,7 +90,7 @@
+                             {this.pages}
+                         </ul>
+                         <div className="portfolio_link">
+-                            <a href="https://id.desjardins.com/login?state=hKFo2SBpTGxnNmlkZTZ1TzhIa3JUMFZyYUpKaC1oTkpXcWVwVaFupWxvZ2luo3RpZNkgTERBZVQ4Um15U3pLejhHUnZQa0RhZjE0TF9PMG9fUG-jY2lk2SBsN0VxVnNvdXJlSEE0ZkpZQzgxcDJGN3VIaWFTa0FvRQ&client=l7EqVsoureHA4fJYC81p2F7uHiaSkAoE&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fbrendfs.dataphile.broadridge.com%2Fcgi-bin%2Fwspdfsen.sh%2Fiapr%2Fexternal_auth.p&scope=openid&audience=pise-dsf&connection=gpap"><span>Portfolio</span></a>
++                            <a href="https://id.desjardins.com/login?state=hKFo2SBpTGxnNmlkZTZ1TzhIa3JUMFZyYUpKaC1oTkpXcWVwVaFupWxvZ2luo3RpZNkgTERBZVQ4Um15U3pLejhHUnZQa0RhZjE0TF9PMG9fUG-jY2lk2SBsN0VxVnNvdXJlSEE0ZkpZQzgxcDJGN3VIaWFTa0FvRQ&client=l7EqVsoureHA4fJYC81p2F7uHiaSkAoE&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fbrendfs.dataphile.broadridge.com%2Fcgi-bin%2Fwspdfsen.sh%2Fiapr%2Fexternal_auth.p&scope=openid&audience=pise-dsf&connection=gpap"><span>Portail</span></a>
+                         </div>
+                         <div onClick={this.toggleClass} className={"burger_btn_container"}>
+                             <div className={"btn_burger"}>
+@@ -103,9 +103,9 @@
+                     </div>
+                     <div className={"addons_info " + this.isTop()}>
+                         <div className="container">
+-                            <div className="col-md-4">
++                            <div className="col align-self-center">
+                                 <div className="card">
+-                                        <ul className="list-group-flush">
++                                        <ul className="list-group list-group-flush list-group-horizontal">
+                                             <StockRow ticker="AAPL" />
+                                             <StockRow ticker="GOOG" />
+                                             <StockRow ticker="MSFT" />
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+--- a/package.json	
++++ b/package.json	
+@@ -19,10 +19,10 @@
+     "web-vitals": "^2.1.4"
+   },
+   "scripts": {
+-    "start": "../../Desktop/holosSite/node_modules/.bin/react-scripts start",
+-    "build": "../../Desktop/holosSite/node_modules/.bin/react-scripts build",
+-    "test": "../../Desktop/holosSite/node_modules/.bin/react-scripts test",
+-    "eject": "../../Desktop/holosSite/node_modules/.bin/react-scripts eject"
++    "start": "react-scripts start",
++    "build": "../holosSite/node_modules/.bin/react-scripts build",
++    "test": "../holosSite/node_modules/.bin/react-scripts test",
++    "eject": "../holosSite/node_modules/.bin/react-scripts eject"
+   },
+   "eslintConfig": {
+     "extends": [
