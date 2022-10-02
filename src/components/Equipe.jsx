@@ -16,7 +16,7 @@ const getData = (data) =>{
 let equipe =  [
     {
         "name" : "Olivier Lamarche",
-        "img" : "/img/holos_black.png",
+        "img" : "/img/photoOlivier.jpg",
         "titre" : "B.A.A, Associé",
         "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "roles"  : [
@@ -26,7 +26,7 @@ let equipe =  [
     },
     {
         "name" : "Julien Gagnon-Paré",
-        "img" : "/img/holos_black.png",
+        "img" : "/img/photoJulien.jpg",
         "titre" : "M.B.A Finance, Associé",
         "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "roles"  : [
@@ -36,7 +36,7 @@ let equipe =  [
     },
     {
         "name" : "Jean-François Lachance",
-        "img" : "/img/holos_black.png",
+        "img" : "/img/photoJeff.jpg",
         "titre" : "B.A.A, Pl.Fin",
         "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "roles"  : [
@@ -47,7 +47,7 @@ let equipe =  [
     },
     {
         "name" : "Stéfanie Hains",
-        "img" : "/img/holos_black.png",
+        "img" : "/img/photoStefanie.jpg",
         "titre" : "Coordinatrice",
         "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "roles"  : [
@@ -57,7 +57,7 @@ let equipe =  [
     },
     {
         "name" : "Stéphanie Fortin-Nadeau",
-        "img" : "/img/holos_black.png",
+        "img" : "/img/photoStephanie3.jpg",
         "titre" : "Coordinatrice",
         "linkedIn": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "roles"  : [

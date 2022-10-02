@@ -34,8 +34,10 @@ function App() {
           </section>
           <section id={"mission"}>
               <div className="container">
-                  <h2>Notre mission</h2>
-                  <p>Grâce à l’expertise de son équipe, Holos conseille et prend en charge les besoins de ses clients en matière de choix de placement et d’assurance. Son approche efficiente et Holistique permet une optimisation de la destination financière des particuliers et des propriétaires d’entreprise.</p>
+                  <div className="col-md-8 offset-md-2">
+                      <h2>Notre mission</h2>
+                      <p className="lead">Grâce à l’expertise de son équipe, Holos conseille et prend en charge les besoins de ses clients en matière de choix de placement et d’assurance. Son approche efficiente et Holistique permet une optimisation de la destination financière des particuliers et des propriétaires d’entreprise.</p>
+                  </div>
               </div>
           </section>
           <section id={"equipe"}>
