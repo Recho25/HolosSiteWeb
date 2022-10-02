@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06bb314e-7abf-4b94-ac52-0cfba9dcdbe3" name="Changes" comment="">
+    <list default="true" id="06bb314e-7abf-4b94-ac52-0cfba9dcdbe3" name="Changes" comment="add photos + align stockmarket in the middle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Equipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Equipe.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +92,16 @@
       <workItem from="1664479290190" duration="914000" />
       <workItem from="1664640100044" duration="1116000" />
       <workItem from="1664675054991" duration="3720000" />
-      <workItem from="1664732777823" duration="3054000" />
+      <workItem from="1664732777823" duration="5852000" />
     </task>
+    <task id="LOCAL-00001" summary="add photos + align stockmarket in the middle">
+      <created>1664747975120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664747975120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add photos + align stockmarket in the middle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add photos + align stockmarket in the middle" />
   </component>
 </project>
