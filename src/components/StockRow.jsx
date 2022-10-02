@@ -42,10 +42,11 @@ class StockRow extends Component {
         })
     }
 
-    componentDidMount() {
+    async componentDidMount() {
         // const url = `${iex.base_url}/stock/${this.props.ticker}/intraday-prices?chartLast=1&token=${iex.api_token}`
         // const response = await fetch(url)
         // const json = await response.json()
+        // console.log(json)
         stock.latestPrice(this.props.ticker, this.applyData.bind(this))
     }
 

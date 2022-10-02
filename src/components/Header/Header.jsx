@@ -85,32 +85,33 @@ class Header extends Component {
                 <header onScroll={this.handleScroll} className={this.giveClass() + " " + this.isTop()}>
                     <div className="first-row">
                         <div className="container">
-                        <a href="#accueil" className={"link_home"}><img src="/img/logo_png_gold.png" alt=""/></a>
-                        <ul className={"nav_desktop"}>
-                            {this.pages}
-                        </ul>
-                        <div className="portfolio_link">
-                            <a href="https://id.desjardins.com/login?state=hKFo2SBpTGxnNmlkZTZ1TzhIa3JUMFZyYUpKaC1oTkpXcWVwVaFupWxvZ2luo3RpZNkgTERBZVQ4Um15U3pLejhHUnZQa0RhZjE0TF9PMG9fUG-jY2lk2SBsN0VxVnNvdXJlSEE0ZkpZQzgxcDJGN3VIaWFTa0FvRQ&client=l7EqVsoureHA4fJYC81p2F7uHiaSkAoE&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fbrendfs.dataphile.broadridge.com%2Fcgi-bin%2Fwspdfsen.sh%2Fiapr%2Fexternal_auth.p&scope=openid&audience=pise-dsf&connection=gpap"><span>Portfolio</span></a>
-                        </div>
-                        <div onClick={this.toggleClass} className={"burger_btn_container"}>
-                            <div className={"btn_burger"}>
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                            <a href="#accueil" className={"link_home"}><img src="/img/logo_png_gold.png" alt=""/></a>
+                            <ul className={"nav_desktop"}>
+                                {this.pages}
+                            </ul>
+                            <div className="portfolio_link">
+                                <a href="https://id.desjardins.com/login?state=hKFo2SBpTGxnNmlkZTZ1TzhIa3JUMFZyYUpKaC1oTkpXcWVwVaFupWxvZ2luo3RpZNkgTERBZVQ4Um15U3pLejhHUnZQa0RhZjE0TF9PMG9fUG-jY2lk2SBsN0VxVnNvdXJlSEE0ZkpZQzgxcDJGN3VIaWFTa0FvRQ&client=l7EqVsoureHA4fJYC81p2F7uHiaSkAoE&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fbrendfs.dataphile.broadridge.com%2Fcgi-bin%2Fwspdfsen.sh%2Fiapr%2Fexternal_auth.p&scope=openid&audience=pise-dsf&connection=gpap"><span>Portfolio</span></a>
+                            </div>
+                            <div onClick={this.toggleClass} className={"burger_btn_container"}>
+                                <div className={"btn_burger"}>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                     <div className={"addons_info " + this.isTop()}>
                         <div className="container">
                             <div className="col-md-4">
                                 <div className="card">
-                                        <ul className="list-group-flush">
-                                            <StockRow ticker="AAPL" />
-                                            <StockRow ticker="GOOG" />
-                                            <StockRow ticker="MSFT" />
-                                            <StockRow ticker="TSLA" />
-                                        </ul>
+                                    <ul className=" list-group list-group-flush list-group-horizontal">
+                                        <StockRow ticker="AAPL" />
+                                        <StockRow ticker="GOOG" />
+                                        <StockRow ticker="MSFT" />
+                                        <StockRow ticker="TSLA" />
+                                        <StockRow ticker="AMZN"/>
+                                    </ul>
                                 </div>
                             </div>
                             {/*<table className="table mt-5">*/}
