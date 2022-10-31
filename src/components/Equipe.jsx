@@ -19,7 +19,7 @@ let equipe =  [
         "img" : "/img/photoOlivier.jpg",
         "titre" : "B.A.A, Associé",
         "linkedIn": "https://www.google.ca",
-        "booking": "https://google.ca",
+        "booking": "https://outlook.office365.com/owa/calendar/HolosservicesfinanciersInc@sfl.ca/bookings/",
         "roles"  : [
             "Conseiller en sécurité financière",
             "Représentant en épargne collective"
@@ -43,6 +43,7 @@ let equipe =  [
         "linkedIn": "https://www.google.ca",
         "booking": "https://google.ca",
         "roles"  : [
+            "Président Plani-Concept",
             "Partenaire associé",
             "Représentant en épargne collective",
             "Conseiller en sécurité financière"
@@ -55,7 +56,7 @@ let equipe =  [
         "linkedIn": "https://www.google.ca",
         "booking": "https://google.ca",
         "roles"  : [
-            "Plani-Concept.inc & Holos Services Financiers",
+            "Plani-Concept & Holos Services Financiers",
             "SFL Gestion de patrimoine"
         ]
     },
@@ -66,7 +67,7 @@ let equipe =  [
         "linkedIn": "https://www.google.ca",
         "booking": "https://google.ca",
         "roles"  : [
-            "Plani-Concept.inc & Holos Services Financiers",
+            "Plani-Concept & Holos Services Financiers",
             "SFL Gestion de patrimoine"
         ]
     },

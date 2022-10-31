@@ -3,10 +3,6 @@ import React, {Component, Fragment} from 'react'
 import GroupExample from "./ContactCards";
 
 
-
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 class Footer extends Component {
     constructor(props) {
         super(props);
@@ -42,6 +38,7 @@ class Footer extends Component {
                     </div>
                     <div className="container">
                         <div className="logo_wrapper">
+                            <h2>Nos partenaires</h2>
                             <GroupExample></GroupExample>
                         </div>
                     <div className="container">
