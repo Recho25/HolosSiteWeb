@@ -14,53 +14,55 @@ return  (data.map((desc) =>
 }
 let services =  [
     {
-        "serviceName" : "Placements",
+        "serviceName" : "Finances personnelles",
         "serviceDescription"  : [
-            "Gestion stratégiques des placements",
-            "Évaluation de votre portefeuille"
+            "Budget",
+            "Gestion de la dette",
+            "Lucidité fiscale (planification des impôts)"
         ]
     },
     {
-        "serviceName" : "Retraite",
+        "serviceName" : "Assurance de personne",
         "serviceDescription"  : [
-            "Optimisation fiscale de la stratégie de décaissement et d'accumulation"
+            "Assurance vie",
+            "Assurance contre les maladies graves",
+            "Assurance invalidité"
         ]
     },
     {
-        "serviceName" : "Fiscalité",
+        "serviceName" : "Planification Financière",
         "serviceDescription"  : [
-            "Approche axée sur des stratégies personnalisées pour réduire les impôts et maximisé les éléments fiscaux"
+            "Détermination des objectifs de retraite",
+            "Stratégie d'accumulation",
+            "Stratégie de décaissement",
+            "Optimisation fiscale complète"
         ]
     },
     {
-        "serviceName" : "Gestion du risque",
+        "serviceName" : "Gestion du portefeuille d'investissement",
         "serviceDescription"  : [
-            "Évaluation et mise en place d'un plan de santé"
+            "Vigie sur le marché",
+            "Politique de placement",
+            "REER/CELI/REEE/REEi",
+            "Fond de catégorie"
         ]
     },
     {
-        "serviceName" : "Transfert intergénérationnel",
+        "serviceName" : "Planification successorale",
         "serviceDescription"  : [
-            "Optimisation du patrimoine familiale"
+            "Transfert des actifs au décès",
+            "Inventaire financier",
+            "Calcul de l'impôt au décès"
         ]
     },
     {
-        "serviceName" : "Optimisation fiscale",
+        "serviceName" : "Entrepreneurs",
         "serviceDescription"  : [
-            "Approche basée sur la réalité fiscale des Québécois"
-        ]
-    },
-    {
-        "serviceName" : "Optimisation fiscale",
-        "serviceDescription"  : [
-            "Approche basée sur la réalité fiscale des Québécois"
-        ]
-    },
-    {
-        "serviceName" : "Gestion privé",
-        "serviceDescription"  : [
-            "Famille à valeur nette élevé",
-            "Entrepreneur"
+            "Régime exécutif de retraite",
+            "Assurance en prime partagé",
+            "Régime d'assurance salaire",
+            "Optimisation discale (individuel et corporative"
+
         ]
     }
 ]

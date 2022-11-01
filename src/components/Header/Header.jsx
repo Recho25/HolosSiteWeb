@@ -42,7 +42,7 @@ class Header extends Component {
             {
                 "id" : 6,
                 "label" : "Rendez-vous",
-                "link"  : "#footer"
+                "link"  : "#equipe"
             }
         ]
 
@@ -103,9 +103,9 @@ class Header extends Component {
                     </div>
                     <div className={"addons_info " + this.isTop()}>
                         <div className="container">
-                            <div className="col-md-4">
+                            <div className="col-md-4 offset-md-4">
                                 <div className="card">
-                                    <ul className=" list-group list-group-flush list-group-horizontal">
+                                    <ul className="list-group list-group-flush list-group-horizontal text-center">
                                         <StockRow ticker="AAPL" />
                                         <StockRow ticker="GOOG" />
                                         <StockRow ticker="MSFT" />
