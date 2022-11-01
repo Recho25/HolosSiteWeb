@@ -61,7 +61,7 @@ let services =  [
             "Régime exécutif de retraite",
             "Assurance en prime partagé",
             "Régime d'assurance salaire",
-            "Optimisation discale (individuel et corporative"
+            "Optimisation fiscale (individuel et corporative)"
 
         ]
     }
