@@ -12,7 +12,7 @@ function App() {
       <Header></Header>
       <main>
           <section id={"accueil"} className={"hero_section filter_black"} style={{
-              backgroundImage: `url('${process.env.PUBLIC_URL}/img/background_placeholder.jpeg')`
+              backgroundImage: `url('${process.env.PUBLIC_URL}/img/photoHomeScreen.jpg')`
           }}>
             <div className="container">
                 <h1>Bienvenue dans le cabinet financier Holos!</h1>

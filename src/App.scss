@@ -151,7 +151,7 @@ section:not(.hero_section){
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../public/img/photoHomeScreen.jpg");
+    //background-image: url("../public/img/photoHomeScreen.jpg");
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,8 @@ section:not(.hero_section){
         border-bottom: 1px solid #fabe7b;
         img{
           width: 100%;
-          height: 320px;
+          height: 400px;
+          object-position: top;
           object-fit: cover;
         }
       }
