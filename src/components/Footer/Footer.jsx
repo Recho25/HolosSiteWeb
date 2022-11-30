@@ -42,7 +42,9 @@ class Footer extends Component {
                             <GroupExample></GroupExample>
                         </div>
                     <div className="container">
-                        &copy; 2022 Tous droits réservés
+                        <div className={"copyRights"}>
+                            &copy; 2022 Tous droits réservés
+                        </div>
                     </div>
                     </div>
                 </footer>

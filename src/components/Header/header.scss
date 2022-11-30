@@ -101,6 +101,7 @@ header{
 
 .nav_desktop{
     li{
+      font-weight: bold;
       position: relative;
       a{
         transition: 300ms ease-in-out;
@@ -195,6 +196,7 @@ img{
         text-decoration: none;
         color: aliceblue;
         font-size: 2em;
+
       }
     }
   }
@@ -312,6 +314,7 @@ header.open .btn_burger, header.open .btn_burger:hover{
 }
 .portfolio_link{
   display: block;
+  border: 2px solid black;
   @include tablet(){
     display: none;
   }
@@ -324,7 +327,7 @@ header.open .btn_burger, header.open .btn_burger:hover{
     display: inline-block;
     transition: 250ms ease-in-out;
     position: relative;
-    overflow: hidden;
+    //overflow: hidden;
     span{
       transition: 250ms;
     }

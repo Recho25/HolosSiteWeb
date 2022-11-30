@@ -18,7 +18,6 @@ let equipe =  [
         "name" : "Olivier Lamarche",
         "img" : "/img/photoOlivier.jpg",
         "titre" : "B.A.A, Associé",
-        "linkedIn": "https://www.google.ca",
         "booking": "https://outlook.office365.com/owa/calendar/HolosservicesfinanciersInc@sfl.ca/bookings/",
         "roles"  : [
             "Conseiller en sécurité financière",
@@ -27,10 +26,9 @@ let equipe =  [
     },
     {
         "name" : "Julien Gagnon-Paré",
-        "img" : "/img/photoJulien.jpg",
+        "img" : "/img/julienFinale.jpg",
         "titre" : "M.B.A Finance, Associé",
-        "linkedIn": "https://www.google.ca",
-        "booking": "https://google.ca",
+        "booking": "",
         "roles"  : [
             "Conseiller en sécurité financière",
             "Représentant en épargne collective"
@@ -40,8 +38,7 @@ let equipe =  [
         "name" : "Jean-François Lachance",
         "img" : "/img/photoJeff.jpg",
         "titre" : "B.A.A, Pl.Fin",
-        "linkedIn": "https://www.google.ca",
-        "booking": "https://google.ca",
+        "booking": "https://outlook.office365.com/owa/calendar/PlaniConcept@sfl.ca/bookings/",
         "roles"  : [
             "Président Plani-Concept",
             "Partenaire associé",
@@ -53,7 +50,6 @@ let equipe =  [
         "name" : "Stéfanie Hains",
         "img" : "/img/photoStefanie.jpg",
         "titre" : "Coordinatrice",
-        "linkedIn": "https://www.google.ca",
         "booking": "https://google.ca",
         "roles"  : [
             "Plani-Concept & Holos Services Financiers",
@@ -64,7 +60,6 @@ let equipe =  [
         "name" : "Stéphanie Fortin-Nadeau",
         "img" : "/img/photoStephanie3.jpg",
         "titre" : "Coordinatrice",
-        "linkedIn": "https://www.google.ca",
         "booking": "https://google.ca",
         "roles"  : [
             "Plani-Concept & Holos Services Financiers",
@@ -83,9 +78,7 @@ function Equipe(){
         equipe.map((membre) =>
             <div className={"equipe_card"} key={membre["id"]}>
                 <div className="img_container">
-                    <a href={membre["linkedIn"]}>
-                        <img src={membre["img"]} alt=""/>
-                    </a>
+                    <img src={membre["img"]} alt=""/>
                 </div>
                 <div className="equipe_card_content">
                     <h3>{membre["name"]}</h3>

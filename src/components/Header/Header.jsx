@@ -89,7 +89,7 @@ class Header extends Component {
                                 {this.pages}
                             </ul>
                             <div className="portfolio_link">
-                                <a href="https://id.desjardins.com/login?state=hKFo2SBpTGxnNmlkZTZ1TzhIa3JUMFZyYUpKaC1oTkpXcWVwVaFupWxvZ2luo3RpZNkgTERBZVQ4Um15U3pLejhHUnZQa0RhZjE0TF9PMG9fUG-jY2lk2SBsN0VxVnNvdXJlSEE0ZkpZQzgxcDJGN3VIaWFTa0FvRQ&client=l7EqVsoureHA4fJYC81p2F7uHiaSkAoE&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fbrendfs.dataphile.broadridge.com%2Fcgi-bin%2Fwspdfsen.sh%2Fiapr%2Fexternal_auth.p&scope=openid&audience=pise-dsf&connection=gpap"><span>Accédez à votre portefeuil</span></a>
+                                <a href="https://id.desjardins.com/login?state=hKFo2SBpTGxnNmlkZTZ1TzhIa3JUMFZyYUpKaC1oTkpXcWVwVaFupWxvZ2luo3RpZNkgTERBZVQ4Um15U3pLejhHUnZQa0RhZjE0TF9PMG9fUG-jY2lk2SBsN0VxVnNvdXJlSEE0ZkpZQzgxcDJGN3VIaWFTa0FvRQ&client=l7EqVsoureHA4fJYC81p2F7uHiaSkAoE&protocol=oauth2&response_type=code&redirect_uri=https%3A%2F%2Fbrendfs.dataphile.broadridge.com%2Fcgi-bin%2Fwspdfsen.sh%2Fiapr%2Fexternal_auth.p&scope=openid&audience=pise-dsf&connection=gpap"><span>Accédez à votre portail</span></a>
                             </div>
                             <div onClick={this.toggleClass} className={"burger_btn_container"}>
                                 <div className={"btn_burger"}>

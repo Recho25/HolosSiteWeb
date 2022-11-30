@@ -1,10 +1,12 @@
+$phone-width: 550px;
+
 footer{
   padding: 45px 0;
-  .container:first-of-type{
-    padding-bottom: 15px;
-    border-bottom: 1px solid #fabe7b;
-    margin-bottom: 25px;
-  }
+  //.container:first-of-type{
+  //  padding-bottom: 15px;
+  //  border-bottom: 1px solid #fabe7b;
+  //  margin-bottom: 25px;
+  //}
   h2{
     margin-bottom: 12px;
   }
@@ -26,5 +28,16 @@ footer{
       object-fit: contain;
       margin-right: 20px;
     }
+  }
+  iframe {
+    @media (max-width: #{$phone-width}){
+      width: 300px;
+    }
+  }
+  .copyRights {
+    padding-bottom: 15px;
+    border-top: 1px solid #fabe7b;
+    margin-bottom: 25px;
+    margin-top: 2em;
   }
 }

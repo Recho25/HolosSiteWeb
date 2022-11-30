@@ -15,7 +15,7 @@ function App() {
               backgroundImage: `url('${process.env.PUBLIC_URL}/img/photoHomeScreen.jpg')`
           }}>
             <div className="container">
-                <h1>Bienvenue dans le cabinet financier Holos!</h1>
+                <h1>Bienvenue dans le cabinet Holos services financiers!</h1>
             </div>
           </section>
           <section id={"services"}>
