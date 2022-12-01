@@ -26,7 +26,7 @@ let equipe =  [
     },
     {
         "name" : "Julien Gagnon-Paré",
-        "img" : "/img/julienFinale.jpg",
+        "img" : "/img/photoJulien.jpg",
         "titre" : "M.B.A Finance, Associé",
         "booking": "",
         "roles"  : [

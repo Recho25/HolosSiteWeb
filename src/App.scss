@@ -129,6 +129,10 @@ section:not(.hero_section){
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  @include phone() {
+    display: grid;
+    background-size: auto;
+  }
   display: flex;
   justify-content: center;
   align-items: center;
