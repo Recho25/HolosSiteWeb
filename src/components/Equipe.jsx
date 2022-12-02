@@ -26,7 +26,7 @@ let equipe =  [
     },
     {
         "name" : "Julien Gagnon-Paré",
-        "img" : "/img/photoJulien.jpg",
+        "img" : "/img/testJulien.jpg",
         "titre" : "M.B.A Finance, Associé",
         "booking": "",
         "roles"  : [
@@ -36,7 +36,7 @@ let equipe =  [
     },
     {
         "name" : "Jean-François Lachance",
-        "img" : "/img/photoJeff.jpg",
+        "img" : "/img/testJeff.jpg",
         "titre" : "B.A.A, Pl.Fin",
         "booking": "https://outlook.office365.com/owa/calendar/PlaniConcept@sfl.ca/bookings/",
         "roles"  : [
