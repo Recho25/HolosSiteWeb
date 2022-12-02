@@ -22,7 +22,8 @@ let equipe =  [
         "roles"  : [
             "Conseiller en sécurité financière",
             "Représentant en épargne collective"
-        ]
+        ],
+        "visibility": ""
     },
     {
         "name" : "Julien Gagnon-Paré",
@@ -32,11 +33,12 @@ let equipe =  [
         "roles"  : [
             "Conseiller en sécurité financière",
             "Représentant en épargne collective"
-        ]
+        ],
+        "visibility": ""
     },
     {
         "name" : "Jean-François Lachance",
-        "img" : "/img/testJeff.jpg",
+        "img" : "/img/jefffinale.jpg",
         "titre" : "B.A.A, Pl.Fin",
         "booking": "https://outlook.office365.com/owa/calendar/PlaniConcept@sfl.ca/bookings/",
         "roles"  : [
@@ -44,7 +46,8 @@ let equipe =  [
             "Partenaire associé",
             "Représentant en épargne collective",
             "Conseiller en sécurité financière"
-        ]
+        ],
+        "visibility": ""
     },
     {
         "name" : "Stéfanie Hains",
@@ -54,7 +57,8 @@ let equipe =  [
         "roles"  : [
             "Plani-Concept & Holos Services Financiers",
             "SFL Gestion de patrimoine"
-        ]
+        ],
+        "visibility": "none"
     },
     {
         "name" : "Stéphanie Fortin-Nadeau",
@@ -64,7 +68,8 @@ let equipe =  [
         "roles"  : [
             "Plani-Concept & Holos Services Financiers",
             "SFL Gestion de patrimoine"
-        ]
+        ],
+        "visibility": "none"
     },
 ]
 
@@ -87,7 +92,7 @@ function Equipe(){
                         { getData(membre["roles"]) }
                     </div>
                     <div className="mt-5 col-md-12 text-center">
-                        <a href={membre["booking"]}>
+                        <a href={membre["booking"]} style={{display: membre["visibility"]}}>
                             <Button variant="btn btn-outline-light" size="lg">Rendez-vous</Button>
                         </a>
                     </div>

@@ -139,7 +139,7 @@ section:not(.hero_section){
   .container{
     position: relative;
     z-index: 2;
-    h1{
+    h1 {
       color: #fabe7b;
       width: 60%;
       @include tablet(){
