@@ -44,7 +44,7 @@ let services =  [
             "Vigie sur le marché",
             "Politique de placement",
             "REER/CELI/REEE/REEi",
-            "Fond de catégorie"
+            "Fonds de catégorie"
         ]
     },
     {
@@ -61,7 +61,7 @@ let services =  [
             "Régime exécutif de retraite",
             "Assurance en prime partagé",
             "Régime d'assurance salaire",
-            "Optimisation fiscale (individuel et corporative)"
+            "Optimisation fiscale (individuelle et corporative)"
 
         ]
     }
